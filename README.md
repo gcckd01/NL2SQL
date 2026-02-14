@@ -23,7 +23,7 @@ This project is an intelligent SQL query generator that translates natural langu
 3.  **Schema Contextualization:** Mapping semantic vectors to the metadata graph[cite: 61].
 4.  **SQL Construction:** Clause generation (SELECT, FROM, JOIN) and aggregation analysis[cite: 62, 63].
 5.  **Validation:** Final syntax check and performance tuning[cite: 64].
-6.  ![Uploading MINI PROJECT (1).png…]()
+<img width="7280" height="5080" alt="MINI PROJECT (1)" src="https://github.com/user-attachments/assets/7a6aaf50-b09c-40a7-bc06-cd9392bea022" />
 
 
 ## 🛠️ Installation
