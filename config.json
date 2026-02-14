@@ -1,0 +1,16 @@
+{
+    "embedder": {
+        "model_name": "sentence-transformers/all-MiniLM-L6-v2", 
+        "dimension": 512,
+        "max_sequence_length": 128,
+        "device": "cpu"
+    },
+    "classifier": {
+        "type": "heuristic",
+        "threshold": 0.75
+    },
+    "metadata": {
+        "description": "Configuration for Context-Aware NL2SQL System",
+        "paper_reference": "Section 5.1 LlamaEmbedder Integration"
+    }
+}

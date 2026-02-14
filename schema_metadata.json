@@ -1,0 +1,44 @@
+{
+  "tables": [
+    {
+      "name": "Sales",
+      "columns": [
+        {
+          "name": "RevenueColumn",
+          "type": "FLOAT"
+        },
+        {
+          "name": "SaleDate",
+          "type": "DATE"
+        },
+        {
+          "name": "ProductName",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "RegionName",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "CustomerID",
+          "type": "INT",
+          "foreign_key": "Customers.ID"
+        }
+      ]
+    },
+    {
+      "name": "Customers",
+      "columns": [
+        {
+          "name": "ID",
+          "type": "INT",
+          "primary_key": true
+        },
+        {
+          "name": "CustomerName",
+          "type": "VARCHAR"
+        }
+      ]
+    }
+  ]
+}
