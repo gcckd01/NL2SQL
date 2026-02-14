@@ -9,7 +9,7 @@ Context-Aware NL2SQL Engine: A Python-based system leveraging LlamaEmbedder for 
 ![Status](https://img.shields.io/badge/Status-Research_Prototype-green)
 
 ## 📌 Overview
-This project is an intelligent SQL query generator that translates natural language questions into optimized SQL queri<img width="7280" height="5080" alt="MINI PROJECT (1)" src="https://github.com/user-attachments/assets/7ab52333-c84d-448b-a73f-1340a92fed5b" />
+This project is an intelligent SQL query generator that translates natural language questions into optimized SQL queri
 ## 🚀 Key Features
 * [cite_start]**Context-Aware Translation:** Uses a fine-tuned LlamaEmbedder (512-dim) to capture semantic relationships between words[cite: 54].
 * [cite_start]**Graph-Based Schema Mapping:** Represents database metadata (tables, keys, types) as a graph to navigate relationships efficiently[cite: 57].
@@ -18,11 +18,11 @@ This project is an intelligent SQL query generator that translates natural langu
 
 ## 🏗️ Architecture
 [cite_start]The system follows a multi-stage pipeline approach[cite: 59]:
-1.  [cite_start]**NLP & Tokenization:** User input is processed to detect intent and entities[cite: 60].
-2.  [cite_start]**Semantic Embedding:** High-dimensional vector generation using LlamaEmbedder[cite: 53].
-3.  [cite_start]**Schema Contextualization:** Mapping semantic vectors to the metadata graph[cite: 61].
-4.  [cite_start]**SQL Construction:** Clause generation (SELECT, FROM, JOIN) and aggregation analysis[cite: 62, 63].
-5.  [cite_start]**Validation:** Final syntax check and performance tuning[cite: 64].
+1.  **NLP & Tokenization:** User input is processed to detect intent and entities[cite: 60].
+2.  **Semantic Embedding:** High-dimensional vector generation using LlamaEmbedder[cite: 53].
+3.  **Schema Contextualization:** Mapping semantic vectors to the metadata graph[cite: 61].
+4.  **SQL Construction:** Clause generation (SELECT, FROM, JOIN) and aggregation analysis[cite: 62, 63].
+5.  **Validation:** Final syntax check and performance tuning[cite: 64].
 6.  ![Uploading MINI PROJECT (1).png…]()
 
 
