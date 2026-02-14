@@ -25,10 +25,12 @@ This project is an intelligent SQL query generator that translates natural langu
 5.  **Validation:** Final syntax check and performance tuning[cite: 64].
 <img width="7280" height="5080" alt="MINI PROJECT (1)" src="https://github.com/user-attachments/assets/7a6aaf50-b09c-40a7-bc06-cd9392bea022" />
 
+Project report and further findings [https://drive.google.com/file/d/1AuLeaRILgSE54DnYURXkVI6J-rBUC0ef/view?usp=sharing]
+
 
 ## 🛠️ Installation
 ```bash
 git clone [https://github.com/yourusername/nl2sql-engine.git](https://github.com/yourusername/nl2sql-engine.git)
 cd nl2sql-engine
 pip install -r requirements.txt
-Project report [https://drive.google.com/file/d/1AuLeaRILgSE54DnYURXkVI6J-rBUC0ef/view?usp=sharing]
+
