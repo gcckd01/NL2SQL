@@ -1,0 +1,12 @@
+# .gitignore
+
+# Ignore standard python files
+__pycache__/
+*.pyc
+
+# Ignore heavy model weights (Standard Industry Practice)
+*.bin
+*.pt
+*.safetensors
+*.h5
+models/*.pkl  # Ignore local training artifacts
